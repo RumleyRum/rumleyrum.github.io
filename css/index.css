@@ -1,31 +1,51 @@
-/* index.css */
+/* nicepage.css */
 
-/* Home Page Styles */
-.home-container {
-    padding: 50px;
+/* Nicepage Basic Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
     background-color: #fff;
-    text-align: center;
 }
 
-.home-container h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+.u-header,
+.u-footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
 }
 
-.home-container p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-.home-container .cta-button {
-    padding: 15px 30px;
-    background-color: #478ac9;
-    color: #fff;
+.u-nav-link {
+    color: #478ac9;
     text-decoration: none;
-    border-radius: 5px;
+    margin: 0 15px;
     font-size: 1rem;
 }
 
-.home-container .cta-button:hover {
-    background-color: #356baf;
+.u-nav-link:hover {
+    color: #356baf;
+}
+
+.u-logo-image {
+    width: 100px;
+    height: auto;
+}
+
+.u-section-1,
+.u-footer {
+    margin-top: 20px;
+}
+
+.u-backlink {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.u-backlink a {
+    color: #478ac9;
+    text-decoration: none;
+}
+
+.u-backlink a:hover {
+    text-decoration: underline;
 }
