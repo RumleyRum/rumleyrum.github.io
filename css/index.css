@@ -1,3 +1,31 @@
-.u-section-1 .u-sheet-1 {
-  min-height: 400px;
+/* index.css */
+
+/* Home Page Styles */
+.home-container {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.home-container .cta-button {
+    padding: 15px 30px;
+    background-color: #478ac9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.home-container .cta-button:hover {
+    background-color: #356baf;
 }
